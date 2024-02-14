@@ -1,0 +1,9 @@
+{
+  "name": "@shinGangan/nuxt-config-website",
+  "description": "",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "shinGangan",
+  "license": "MIT",
+  "dependencies": {}
+}
