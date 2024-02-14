@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-config-website",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "author": "shinGangan",
+  "license": "MIT",
+  "scripts": {
+    "package": "pnpm --filter ./packages",
+    "play": "pnpm --filter ./playground"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "devDependencies": {
+    "nuxt": "^3.10.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  }
+}
