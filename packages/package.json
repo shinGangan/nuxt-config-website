@@ -10,6 +10,7 @@
     "url": "https://github.com/shinGangan/nuxt-config-website"
   },
   "dependencies": {
-    "@nuxt/image": "^1.3.0"
+    "@nuxt/image": "^1.3.0",
+    "@nuxtjs/i18n": "^8.1.1"
   }
 }
