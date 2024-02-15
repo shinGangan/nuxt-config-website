@@ -1,0 +1,45 @@
+name: Edit Pull Request
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+
+jobs:
+  add-labels:
+    uses: shinGangan/.github/.github/workflows/labeler.yml@main
+    if: ${{ toJson(github.event.pull_request.labels) == '[]' }}
+    permissions:
+      contents: read
+      pull-requests: write
+    with:
+      config-path: .github/labeler.yml
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+  edit-pr:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 1
+    permissions:
+      contents: read
+      repository-projects: read
+      pull-requests: write
+    env:
+      ASSIGNEE: ${{ github.event.pull_request.user.login }}
+      NUMBER: ${{ github.event.pull_request.number }}
+      TITLE: ${{ github.event.pull_request.title }}
+      # 一旦マイルストーンは固定
+      MILESTONE: "v0.1.0"
+    steps:
+      - name: Assgin PR author
+        run: gh pr edit $NUMBER --add-assignee $ASSIGNEE
+        if: ${{ toJson(github.event.pull_request.assignees) == '[]' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+      - name: Add milestone
+        run: gh pr edit $NUMBER -m $MILESTONE
+        if: github.event.pull_request.milestone == null
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}

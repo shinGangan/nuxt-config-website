@@ -1,0 +1,50 @@
+name: "🐞 Bug Report"
+description: Bug Report template
+title: "【Bug】"
+labels: ["🐞 Bugs"]
+assignees:
+  - shinGangan
+body:
+  - type: markdown
+    attributes:
+      value: |
+        バグレポート
+  - type: textarea
+    id: problem
+    attributes:
+      label: どんな不具合が発生しましたか？
+      description: 観測したバグ・不具合について説明してください.
+      placeholder: 観測したバグ・不具合について説明してください.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: 不具合を観測したバージョンはいくつですか？
+      description: 不具合を観測したバージョンを選択してください. 分からない場合はunknownを選択してください.
+      options:
+        - 1.0.0 (Default)
+        - 1.0.1 (Test)
+        - unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 不具合を観測したブラウザ・OSはなんですか？
+      description: 不具合を観測したブラウザ・OSを選択してください(複数選択).
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Windows
+        - Mac OS
+        - Linux
+        - Android
+        - iOS
+  - type: textarea
+    id: note
+    attributes:
+      label: 備考欄
