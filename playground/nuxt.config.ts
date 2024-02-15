@@ -1,5 +1,10 @@
 export default defineNuxtConfig({
-  extends: ["../packages"],
+  extends: [
+    // use local env
+    "../packages",
+    // use from external repo
+    // "github:shinGangan/nuxt-config-website/packages",
+  ],
 
   $development: {
     devtools: { enabled: true },
