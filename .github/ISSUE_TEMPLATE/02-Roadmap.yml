@@ -21,12 +21,17 @@ body:
     validations:
       required: true
   # Status
-  - type: input
+  - type: dropdown
     id: status
     attributes:
       label: Status
-      value: Draft
-      placeholder: Draft
+      options:
+        - Draft
+        - Proposed
+        - Accepted
+        - Superseded
+        - Deprecated
+        - Rejected
     validations:
       required: false
   # Context
