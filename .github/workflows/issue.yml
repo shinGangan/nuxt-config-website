@@ -1,0 +1,21 @@
+name: Edit Issue
+on:
+  issues:
+    types:
+      - opened
+      - reopened
+
+jobs:
+  edit-issue:
+    uses: shinGangan/.github/.github/workflows/issue.yml@main
+    permissions:
+      contents: read
+      issues: write
+    with:
+      number: ${{ github.event.issue.number }}
+      assignee: ${{ github.event.issue.user.login }}
+      title: ${{ github.event.issue.title }}
+      milestone: "v0.1.0"
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+      repo: ${{ github.repository }}
