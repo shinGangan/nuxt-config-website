@@ -45,7 +45,7 @@ This repository is licensed under the [MIT License](./LICENSE).
 [nuxt-seo-href]: https://nuxtseo.com/
 [nuxt-simple-robots]: https://img.shields.io/badge/nuxt--simple--robots-00DC82?style=plastic&logo=nuxt.js&color=6A6A6A
 [nuxt-robots-href]: https://nuxtseo.com/robots/getting-started/installation
-[@nuxtjs/sitemap]: https://img.shields.io/badge/@nuxtjs/sitemap-00DC82?style=plastic&logo=nuxt.js&color=6A6A6A
+[@nuxtjs/sitemap]: https://img.shields.io/badge/@nuxtjs/sitemap-v5.1.x-00DC82?style=plastic&logo=nuxt.js
 [nuxt-sitemap-href]: https://nuxtseo.com/sitemap/getting-started/installation
 [nuxt-og-image]: https://img.shields.io/badge/nuxt--og--image-00DC82?style=plastic&logo=nuxt.js&color=6A6A6A
 [nuxt-og-image-href]: https://nuxtseo.com/og-image/getting-started/installation
