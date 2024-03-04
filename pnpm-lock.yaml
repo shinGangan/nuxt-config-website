@@ -15,8 +15,8 @@ importers:
         specifier: ^3.4.21
         version: 3.4.21
       vue-router:
-        specifier: ^4.2.5
-        version: 4.2.5(vue@3.4.21)
+        specifier: ^4.3.0
+        version: 4.3.0(vue@3.4.21)
 
   packages:
 
@@ -29,7 +29,7 @@ importers:
         version: 8.1.1(rollup@4.10.0)(vue@3.4.21)
       '@nuxtjs/sitemap':
         specifier: ^5.1.0
-        version: 5.1.0(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.19)(h3@1.10.1)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2)
+        version: 5.1.0(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.21)(h3@1.10.1)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2)
 
   playground: {}
 
@@ -1343,7 +1343,7 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/devtools-ui-kit@1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.19)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2):
+  /@nuxt/devtools-ui-kit@1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.21)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2):
     resolution: {integrity: sha512-oPkyQ+nkvCvveWxHWAHpZt9uEycHFD00Rh46KYKe5KLl81Wr/L3KacIIYpiocPog0YZZhjvX5CmrIe8zXopNOA==}
     peerDependencies:
       '@nuxt/devtools': 1.0.8
@@ -1369,7 +1369,7 @@ packages:
       focus-trap: 7.5.4
       splitpanes: 3.1.5
       unocss: 0.58.5(@unocss/webpack@0.58.5)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)
-      v-lazy-show: 0.2.4(@vue/compiler-core@3.4.19)
+      v-lazy-show: 0.2.4(@vue/compiler-core@3.4.21)
     transitivePeerDependencies:
       - '@unocss/webpack'
       - '@vue/compiler-core'
@@ -1721,18 +1721,18 @@ packages:
       - vue-i18n-bridge
     dev: false
 
-  /@nuxtjs/sitemap@5.1.0(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.19)(h3@1.10.1)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2):
+  /@nuxtjs/sitemap@5.1.0(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.21)(h3@1.10.1)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2):
     resolution: {integrity: sha512-F7fAAdzHLJsca0CBJEvZD6Jbl5mZ/egMFJqDjdUByTsaPAygP+FcXhV/lycAtwDMNWThwyZaV3zKyRl2yxX3BQ==}
     dependencies:
       '@nuxt/devtools-kit': 1.0.8(nuxt@3.10.2)(rollup@4.10.0)(vite@5.1.2)
-      '@nuxt/devtools-ui-kit': 1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.19)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2)
+      '@nuxt/devtools-ui-kit': 1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.21)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2)
       '@nuxt/kit': 3.10.2(rollup@4.10.0)
       '@vueuse/core': 10.7.2(vue@3.4.21)
       chalk: 5.3.0
       defu: 6.1.4
       floating-vue: 5.2.2(@nuxt/kit@3.10.2)(vue@3.4.21)
       h3-compression: 0.3.2(h3@1.10.1)
-      nuxt-site-config: 2.2.9(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.19)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2)
+      nuxt-site-config: 2.2.9(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.21)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2)
       nuxt-site-config-kit: 2.2.9(rollup@4.10.0)(vue@3.4.21)
       ofetch: 1.3.3
       pathe: 1.1.2
@@ -5296,11 +5296,11 @@ packages:
       - vue
     dev: false
 
-  /nuxt-site-config@2.2.9(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.19)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2):
+  /nuxt-site-config@2.2.9(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.21)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2):
     resolution: {integrity: sha512-oIxo7OTmVyPHi1uduAQUg1Py8W3ZM0to2z5SCffmhME47I0wK2wK8OimSY2ZpbKsNLfaxExEvR10vSbhgy9rOA==}
     dependencies:
       '@nuxt/devtools-kit': 1.0.8(nuxt@3.10.2)(rollup@4.10.0)(vite@5.1.2)
-      '@nuxt/devtools-ui-kit': 1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.19)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2)
+      '@nuxt/devtools-ui-kit': 1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.21)(nuxt@3.10.2)(postcss@8.4.35)(rollup@4.10.0)(vite@5.1.2)(vue@3.4.21)(webpack@5.90.2)
       '@nuxt/kit': 3.10.2(rollup@4.10.0)
       '@nuxt/schema': 3.10.2(rollup@4.10.0)
       floating-vue: 5.2.2(@nuxt/kit@3.10.2)(vue@3.4.21)
@@ -5398,12 +5398,12 @@ packages:
       unenv: 1.9.0
       unimport: 3.7.1(rollup@4.10.0)
       unplugin: 1.7.1
-      unplugin-vue-router: 0.7.0(rollup@4.10.0)(vue-router@4.2.5)(vue@3.4.21)
+      unplugin-vue-router: 0.7.0(rollup@4.10.0)(vue-router@4.3.0)(vue@3.4.21)
       untyped: 1.4.2
       vue: 3.4.21
       vue-bundle-renderer: 2.0.0
       vue-devtools-stub: 0.1.0
-      vue-router: 4.2.5(vue@3.4.21)
+      vue-router: 4.3.0(vue@3.4.21)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -5503,12 +5503,12 @@ packages:
       unenv: 1.9.0
       unimport: 3.7.1(rollup@4.10.0)
       unplugin: 1.7.1
-      unplugin-vue-router: 0.7.0(rollup@4.10.0)(vue-router@4.2.5)(vue@3.4.21)
+      unplugin-vue-router: 0.7.0(rollup@4.10.0)(vue-router@4.3.0)(vue@3.4.21)
       untyped: 1.4.2
       vue: 3.4.21
       vue-bundle-renderer: 2.0.0
       vue-devtools-stub: 0.1.0
-      vue-router: 4.2.5(vue@3.4.21)
+      vue-router: 4.3.0(vue@3.4.21)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -6900,7 +6900,7 @@ packages:
       - supports-color
     dev: false
 
-  /unplugin-vue-router@0.7.0(rollup@4.10.0)(vue-router@4.2.5)(vue@3.4.21):
+  /unplugin-vue-router@0.7.0(rollup@4.10.0)(vue-router@4.3.0)(vue@3.4.21):
     resolution: {integrity: sha512-ddRreGq0t5vlSB7OMy4e4cfU1w2AwBQCwmvW3oP/0IHQiokzbx4hd3TpwBu3eIAFVuhX2cwNQwp1U32UybTVCw==}
     peerDependencies:
       vue-router: ^4.1.0
@@ -6920,7 +6920,7 @@ packages:
       pathe: 1.1.2
       scule: 1.3.0
       unplugin: 1.7.1
-      vue-router: 4.2.5(vue@3.4.21)
+      vue-router: 4.3.0(vue@3.4.21)
       yaml: 2.3.4
     transitivePeerDependencies:
       - rollup
@@ -7036,12 +7036,12 @@ packages:
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  /v-lazy-show@0.2.4(@vue/compiler-core@3.4.19):
+  /v-lazy-show@0.2.4(@vue/compiler-core@3.4.21):
     resolution: {integrity: sha512-Lx9Str2i+HTh+zGzs9O3YyhGAZOAAfU+6MUUPcQPPiPxQO1sHBEv9sH3MO9bPc4T09gsjsS2+sbaCWQ1MdhpJQ==}
     peerDependencies:
       '@vue/compiler-core': ^3.3
     dependencies:
-      '@vue/compiler-core': 3.4.19
+      '@vue/compiler-core': 3.4.21
     dev: false
 
   /validate-npm-package-license@3.0.4:
@@ -7313,6 +7313,15 @@ packages:
 
   /vue-router@4.2.5(vue@3.4.21):
     resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.1
+      vue: 3.4.21
+    dev: false
+
+  /vue-router@4.3.0(vue@3.4.21):
+    resolution: {integrity: sha512-dqUcs8tUeG+ssgWhcPbjHvazML16Oga5w34uCUmsk7i0BcnskoLGwjpa15fqMr2Fa5JgVBrdL2MEgqz6XZ/6IQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
