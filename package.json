@@ -10,10 +10,10 @@
     "package": "pnpm --filter ./packages",
     "play": "pnpm --filter ./playground"
   },
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@8.15.7",
   "devDependencies": {
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.2"
   }
 }

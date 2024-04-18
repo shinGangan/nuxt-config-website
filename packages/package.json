@@ -10,8 +10,8 @@
     "url": "https://github.com/shinGangan/nuxt-config-website"
   },
   "dependencies": {
-    "@nuxt/image": "^1.4.0",
-    "@nuxtjs/i18n": "^8.2.0",
-    "@nuxtjs/sitemap": "^5.1.2"
+    "@nuxt/image": "^1.5.0",
+    "@nuxtjs/i18n": "^8.3.0",
+    "@nuxtjs/sitemap": "^5.1.4"
   }
 }
